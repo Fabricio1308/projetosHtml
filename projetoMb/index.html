@@ -1,0 +1,116 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Biblioteca slick slider -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="images/logo-azul.png" type="icon">
+  <title>Moda do Bem</title>
+
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html"><img src="images/logo-branca.png" alt="Logo Moda do Bem" title="Logo Moda do Bem"
+          class="logo"></a>
+      <ul>
+        <li><a href="novidades.html" class="menu">Novidades</a></li>
+        <li><a href="sobre-nos.html" class="menu">Sobre Nós</a></li>
+        <li><a href="login.html" class="menu">Entrar</a></li>
+        <li><a href="registro.html" class="menu">Registrar-se</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="center">
+    <main id="main-index">
+      <section class="text">
+        <h3 class="diferenca">Faça a Diferença</h3>
+        <p class="p-text">Você tem peças de roupas que não servem mais, ou que não cabem em seu guarda-roupa ? por
+          que não doar e
+          ajudar os necessitados.</p>
+        <p class="p-text">Com nosso sitema de recompensas, você pode até ganhar uma roupa nova. O que acha?</p>
+        <a href="doar.html" class="doar">Doar Agora</a>
+      </section>
+      <section class="img">
+        <img src="images/coracao-crianca.png" class="coracao-crianca" alt="Crianças fazendo coração com as mãos"
+          title="Crianças fazendo coração com as mãos">
+        <div class="total-doacoes">
+          <p>TOTAL DE DOAÇÕES</p>
+          <p class="nmr">567</p>
+          <p>peças doadas</p>
+        </div>
+      </section>
+    </main>
+    <div class="contato">
+
+      <div>
+        <p class="whatsapp">Nos contate via</p>
+        <p><a href="#" class="whatsapp">WhatsApp: (+55) 11 91637-3050</a></p>
+      </div>
+      <div class="redes-sociais">
+        <p><img src="images/intagram-icon.png" class="icons" alt="Logo Intagram" title="Logo Intagram"><a href="#"
+            class="icon-url">Moda
+            do Bem</a></p>
+        <p><img src="images/twitter-icon.png" class="icons" alt="Logo Twitter" title="Logo Twitter"><a href="#"
+            class="icon-url">Moda do
+            Bem</a></p>
+        <p><img src="images/facebook-icon.png" class="icons" alt="Logo Facebook" title="Logo Facebook"><a href="#"
+            class="icon-url">Moda
+            do Bem</a></p>
+        <p><img src="images/youtube-icon.png" class="icons" alt="Logo Youtube" title="Logo Youtube"><a href="#"
+            class="icon-url">Moda do
+            Bem</a></p>
+      </div>
+
+    </div>
+
+    <div class="carrossel">
+      <div><img src="images/carrossel1.png" alt="Imagem Carrossel 1" id="imgCarrossel" title="Separe e Organize"></div>
+      <div><img src="images/carrossel2.png" alt="Imagem Carrossel 2" id="imgCarrossel" title="Em Sacolas ou Caixas"></div>
+      <div><img src="images/carrossel3.png" alt="Imagem Carrossel 3" id="imgCarrossel" title="Leve ao Nosso Centro"></div>
+    </div>
+
+
+    <section class="convite">
+      <h3 class="diferenca-footer">Faça A Diferença Com Uma Simples Atitude</h3>
+      <p>Ao se tornar um doador do MODA DO BEM, você está se juntando a uma grande rede de solidariedade
+        que está transformando a vida de milhares de pessoas que vivem em situação de extrema pobreza na região mais
+        carente do nosso país.</p>
+      <p>Seu apoio é fundamental para continuarmos transformando vidas e comunidades inteiras.
+        Não perca a oportunidade de fazer a diferença na vida de quem mais precisa.</p>
+      <p>Doe agora e faça parte dessa mudança!</p>
+    </section>
+
+    <footer id="footer-index">
+      <img src="images/logo-branca.png" class="logo" alt="Logo Moda do Bem" title="Logo Moda do Bem">
+      <p>Conheça mais sobre o nosso trabalho através do site e das nossas Redes Sociais.</p>
+    </footer>
+
+    <!-- Fim Div Center -->
+  </div>
+
+  <!-- JS Slick slider -->
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carrossel').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: true,
+        dots: true,
+        fade: true
+      });
+    });
+  </script>
+</body>
+
+</html>

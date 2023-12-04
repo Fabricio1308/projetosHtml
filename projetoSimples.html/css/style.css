@@ -1,0 +1,386 @@
+/* Reset */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2{
+    font-size: 1.5em;
+    color: #ffffff;
+}
+
+p{
+    font-size: 1em;
+   color: #ffffff; 
+}
+/* header pagina01 */
+.headerPg1{
+    background-color: #006eff;
+    padding: 1%;
+}
+/* Background pagina 1 */
+.bodyp1{
+    background-color: black;
+}
+/* menu pagina 1 */
+nav{
+    
+    display: flex;
+
+}
+
+.menup1{
+    margin-left: 60%;
+    
+}
+
+.menup1 li{
+    margin-left: 5%;
+    
+}
+
+.menup1 li a{
+    color: white;
+}
+.menup1 li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 1px;
+    padding: 3%;
+}
+/* main pagina 1 */
+.textoCentrop1{
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragrafoCentrop1{
+    display: flex;
+    justify-content: center;
+
+}
+.linksp1{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+   margin-top: 2%;
+}
+.linksp1 li a{
+ color: white;
+}
+
+.linksp1 li a:hover{
+    font-size: 4em;
+    color: #006eff;
+}
+/* footer pagina 01 */
+
+.footerp1{
+    margin-top: 17%;
+    background-color: rgb(0, 110, 255);
+    padding: 1%;
+}
+
+.footerp1 p{
+    color: black;
+}
+
+/* PAGINA 02 */
+
+
+/* Background pagina 02 */
+.bodyp2{
+    background-image: url(../img/564346-Burger-Still.jpg);
+     background-attachment: fixed;
+     background-size: 100vw;
+     color: #fff;
+ }
+ /* menup2 */
+ nav{
+     margin: 2%;
+   display: flex;
+   justify-content: space-around;
+ 
+ }
+ 
+ .menup2{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .menup2 li{
+     display: flex;
+     padding: 2%;
+     
+     
+ }
+ 
+ .menup2 li a{
+     
+     color: white;
+     padding: 5%;
+ }
+ .menup2 li a:hover{
+     background-color: white;
+     color: black;
+     border-radius: 5px;
+ }
+ /* main */
+ .textoCentrop2{
+    display: flex;
+    flex-direction: column;
+    font-size: 8em;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+ 
+ }
+ 
+ 
+ 
+ 
+ 
+ /* PAGINA 03 */
+ 
+ .h1_p3,.h2_p3{
+    font-size: 2em;
+    color: #e94e4e;
+}
+
+.p_pag03{
+    font-size: 1em;
+   color: #000000;
+   padding: 5% 0; 
+}
+
+/* Background pagina 3 */
+.bodyp3{
+    background-color: rgb(255, 255, 255);
+}
+/* menu pagina 03 */
+nav{
+ margin: 4%;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+.menup3{
+    display: flex;
+    justify-content: center;
+    margin-right: 20%;
+}
+
+.menup3 li{
+    display: flex;
+    padding-left: 10%;
+    
+    
+}
+
+.menup3 li a{
+    
+    color: rgb(0, 0, 0);
+}
+.menup3 li a:hover{
+    background-color: white;
+    padding: 8%;
+    color: black;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+/* main pagina 03 */
+
+
+.textop3{
+    
+    margin-top: 10%;
+    width: 40%;
+}
+
+.textoCentrop3{
+ font-size: 3em;
+   display: flex;
+   justify-content: center;
+   color: #e94e4e;
+   
+
+}
+
+.paragrafoCentrop3{
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    font-size: 1.4em;
+    color: #e94e4e;
+}
+
+.paragrafop3{
+    color: #000000;
+}
+
+.imgp3{
+    border-radius: 15px;
+}
+
+.linksp3{
+    margin-top: 8%;
+    width: 80%;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+
+.linksp3 li{
+    border-radius: 15px;
+    border: solid 1px;
+    padding: 1.5% 18%;
+    
+}
+
+.linksp3 li:hover{
+    border: 3px solid #e94e4e;
+    
+    color: black;
+    
+}
+
+
+.linksp3 li a{
+    color: black;
+}
+
+/* PAGINA 04 */
+
+/* Background pagina 04 */
+.bodyp4{
+    background-image: url(../img/mundo.jpg) ;
+    background-attachment: fixed;
+    background-size: 100vw;
+    color: #fff;
+}
+/* menu pagina 04 */
+nav{
+    margin: 2%;
+  display: flex;
+  justify-content: space-around;
+
+}
+.logop4 i{
+    width: 30%;
+
+}
+.menup4{
+    display: flex;
+    justify-content: center;
+}
+
+.menup4 li{
+    display: flex;
+    padding: 8%;
+    
+    
+}
+
+.menup4 li a{
+    
+    color: white;
+}
+.menup4 li a:hover{
+    background-color: white;
+    color: black;
+   
+    border-radius: 5px;
+}
+/* main pagina 04 */
+
+.textoCentrop4{
+ font-size: 8em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20%;
+
+}
+
+
+.linksp4{
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+}
+
+.linksp4 li{
+    border: solid 1px;
+    padding: 1.5% 10%;
+    
+}
+
+.linksp4 li:hover{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    
+}
+
+.linksp4 li a:hover{
+    color: black;
+}
+
+
+.linksp4 li, a{
+ color: white;
+ 
+
+}
+
+
+
+
+/* footer */
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+

@@ -1,0 +1,219 @@
+
+/* RESET CSS */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2{
+    font-size: 1.5em;
+    color: #333;
+}
+
+p{
+    font-size: 1em;
+   color: #777; 
+}
+
+
+/* HEADER  */
+
+header{
+     background-color: rgb(0, 185, 148);
+     padding: 2%;
+     display: flex;
+}
+
+.logoSite{
+    margin-left: 90px;
+}
+
+
+.search{
+    box-sizing: border-box;
+    padding-left: 10px;
+    margin-left: 810px;
+    width: 180px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+.search2{
+    display: flex;
+    width: 40px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(0, 180, 129);
+}
+
+/* NAV MENU */
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 1.5%;
+}
+
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+header li{
+    margin-left: 30px;
+
+}
+
+nav li{
+    margin-left: 30px;
+}
+
+.menu{
+    margin-left: 48px;
+    color: lightslategray;
+    
+}
+
+a{
+    color: lightslategray;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+.redes{
+    color: white;
+    margin-left: 900px;
+}
+
+
+/* MAIN */
+main{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* SECTION PRINCIPAL */
+
+h1{
+    margin-bottom: 5px;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.imgPrincipal{ 
+   float: left;
+  height: 300px;
+  padding: 0 10px 10px 0;
+}
+
+
+/* ASIDE "MAPS" */
+
+.ondeEstamos{
+    border-radius: 20px;
+    padding: 10px;
+    height: 510px;
+    background-color: rgb(244, 244, 244);
+   
+    
+}
+
+iframe{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.ondeEstamos .contatos{
+ color: grey;
+ margin-bottom: 5px;
+   font-size: 25px;
+}
+
+.ondeEstamos li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Newsletter DA PAGINA */
+
+.parteNewsletter{
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+
+.parteNewsletter h2{
+    color: white;
+}
+
+.inputNewsletter input, button{
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.inputNewsletter input{
+    background-color: black;
+    color: grey;
+    border: 1px solid grey;
+    width: 550px;
+}
+
+
+
+.inputNewsletter button{
+    background-color: white;
+    margin-left: 5px;
+    width: 220px;
+}
+
+/* FOOTER */
+
+footer{
+        padding: 20px;
+        background-color: #00c29b;
+        color: white;
+    }
+
+
+
+
+
+
+

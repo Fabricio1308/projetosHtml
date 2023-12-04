@@ -1,0 +1,787 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* imagem de fundo e fonte*/
+body{
+    background-image: url(../images/fundo.png);
+    background-attachment: fixed;
+    background-size: 100vw;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* Global */
+
+/* menu das páginas */
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+header nav ul li .menu:hover, .ativo{
+    background-color: #fff;
+    color: #2160a9;
+}
+
+/* Foto do Perfil */
+header nav ul li a img{
+    width: 50px;
+}
+
+header nav ul li a img:hover{
+    background-color: #00000000;
+    color: #00000000;
+}
+
+
+/* Início Página Index */
+
+/* centralizar algo */
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* principal fundo azul */
+main#main-index{
+    background-color: #003153;
+    width: 1200px;
+    height: 600px;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+/* parte de texto do main */
+.text{
+    width: 300px;
+    height: 500px;
+    margin: 70px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* título do text */
+.diferenca{
+    font-size: 4em;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    text-transform: uppercase;
+}
+
+/* texto do text */
+.p-text{
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+/* botão doar agora */
+.doar{
+    width: 150px;
+    background-color: #fff;
+    color: #2160a9;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    padding: 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* parte de imagem do main */
+.img{
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* imagem do img */
+.coracao-crianca{
+    width: 600px;
+    height: 460px;
+    position: absolute;
+    border-radius: 10px;
+    margin: 0px 0px 40px 40px;
+}
+
+/* total de doações */
+.total-doacoes{
+    background-color: #fff;
+    color: #2160a9;
+    font-weight: bold;
+    font-size: 1em;
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+}
+
+/* número total de doações */
+.nmr{
+    font-size: 3em;
+}
+
+/* Área de contato */
+.contato{
+    background-color: #fff;
+    width: 1200px;
+    height: 150px;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Nos contate via WhatsApp */
+.whatsapp{
+    text-decoration: none;
+    color: #003153;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+/* div para as Redes Sociais */
+.redes-sociais{
+    width: 310px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* toda a parte das redes sociais */
+.redes-sociais p{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* logos das redes sociais */
+.icons{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+/* links das redes sociais */
+.icon-url{
+    text-decoration: none;
+    color: #003153;
+    text-align: center;
+}
+
+.carrossel{
+    width: 1200px;
+    margin-top: 70px;
+}
+
+/* Caixa Para o Breve Convite Antes do footer */
+.convite{
+    width: 1000px;
+    margin-top: 100px;
+}
+
+/* Faça a Diferença com Uma Simples Atitude */
+.diferenca-footer{
+    font-size: 4em;
+    font-weight: 1000;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+/* Parágrafos dentro da caixa convite */
+.convite p{
+    margin-top: 30px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Rodapé */
+footer#footer-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+/* Parágrafo do rodapé */
+footer#footer-index p{
+    font-size: 0.8em;
+}
+
+/* Fim página index */
+
+
+
+
+/* Início Página Novidades */
+
+/* Centralizar todos os textos*/
+main#main-novidades h1, main#main-novidades section article p, main#main-novidades section article h4{
+    text-align: center;
+}
+
+/* Toda a parte do site */
+main#main-novidades{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Títulos Principais */
+h1{
+    text-transform: uppercase;
+}
+
+/* Fundo branco em volta */
+section#section-novidades{
+    background-color: #ffffffb5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 30px;
+    border-radius: 20px;
+}
+
+/* Partes azuis em volta */
+section#section-novidades article{
+    background-color: #2160a9;
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagens */
+section#section-novidades article img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+/* Títulos abaixo das imagens */
+section#section-novidades article h4{
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+/* Saiba Mais */
+section#section-novidades article p{
+    font-size: 0.8em;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+/* Fim página novidades */
+
+
+
+
+/* Início Página Sobre Nós */
+main#main-sobre-nos{
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main#main-sobre-nos h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-size: 3em;
+}
+
+main#main-sobre-nos p{
+    font-size: 1.4em;
+    text-align: justify;
+    width: 80%;
+}
+/* Fim página sobre nós */
+
+
+
+
+/* Início Páginas Login e Registro */
+
+main.main-login-e-registro{
+    width: 40vw;
+    height: 80vh;
+    background-color: #fff;
+    color: #2160a9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+
+main.main-login-e-registro h1{
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+main.main-login-e-registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-inputs label{
+    margin-left: 10px;
+}
+
+main.main-login-e-registro input{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #00000059;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+main.main-login-e-registro #formCadastrar{
+    width: 75%;
+    height: 40px;
+    background-color: #2160a9;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    border: none;
+    box-shadow: 0px 0px 3px #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+main.main-login-e-registro #formCadastrar:hover{
+    background-color: #144b89;
+}
+
+main.main-login-e-registro p{
+    color: #888;
+    margin: 20px;
+}
+main.main-login-e-registro p a{
+    color: #4b9dfa;
+    text-decoration: none;
+}
+
+main.main-login-e-registro p a:hover{
+    text-decoration: underline;
+}
+/* Fim login e registro */
+
+
+
+
+/* Início Página de Doar */
+main#main-doar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Título Doe Agora */
+main#main-doar h1{
+    text-transform: uppercase;
+    font-size: 2.4em;
+    font-weight: bolder;
+}
+
+/* Texto Selecione os Itens Que Irá Doar */
+main#main-doar h3{
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+/* Parte branca em volta */
+main#main-doar section{
+    background-color: #ffffffb5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* parte azul dentro da parte branca */
+main#main-doar section article{
+    background-color: #2160a9;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+/* Imagens das roupas */
+main#main-doar article img{
+    width: 250px;
+}
+
+/* Nomes dos tipos de roupas */
+main#main-doar article h5{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+
+/* Texto Para Onde vai Sua doação? */
+footer#footer-doar{
+    margin: 120px 0px 10px 30px;
+    padding: 20px;
+}
+footer#footer-doar h6{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+footer#footer-doar p{
+    font-size: 1em;
+    margin-top: 5px;
+}
+/* Fim página doar */
+
+/* Início Páginas de Doar Roupas */
+main.main-doar-roupas{
+    width: 40vw;
+    height: 80vh;
+    background-color: #fff;
+    color: #2160a9;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+
+main.main-doar-roupas h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+main.main-doar-roupas form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main.main-doar-roupas .form-inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+
+main.main-doar-roupas .form-inputs #detalhesPeca{
+    
+     height: 130px;
+     
+}
+
+main.main-doar-roupas .btnSelecionarEstado{
+    margin-top: 10px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   
+
+}
+
+.btnSelecionarEstado button{
+
+    width: 120pxpx;
+    height: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #457EBF;
+    cursor: pointer;
+
+}
+
+.btnSelecionarEstado button:hover{
+    background-color: #2160a9;
+}
+
+
+main.main-doar-roupas input{
+    width: 400px;
+    height: 50px;
+    border: 1px solid #00000059;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+main.main-doar-roupas #formDoar{
+    width: 75%;
+    height: 40px;
+    background-color: #2160a9;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 3px #000;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.h3-2{
+    margin-top: 20px;
+}
+main.main-doar-roupas p{
+    color: #888;
+    margin: 30px;
+}
+main.main-doar-roupas p a{
+    color: #4b9dfa;
+    text-decoration: none;
+}
+/* Fim doar roupas */
+
+
+
+
+/* Início Página de Perfil */
+main#main-perfil{
+    background-color: #fff;
+    color: #2160a9;
+    width: 90vw;
+    height: 70vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+main#main-perfil .usuario{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+
+.imagemPerfil{
+    margin: 50px;
+}
+
+.userIcon{
+    width: 20%;
+    position: absolute;
+    top: 200px;
+    left: 120px;
+}
+.cameraIcon{
+    width: 5%;
+    position: absolute;
+    top: 420px;
+    left: 350px;
+    border-radius: 10px;
+}
+
+.informacoesPessoais{
+    margin: 0px 30px 0px 100px;
+}
+
+.informacoesPessoais h4{
+    margin: 40px 0px 20px 0px;
+    font-size: 1.5em;
+}
+
+.informacoesPessoais p{
+    font-size: 1.2em;
+    margin: 15px 0px 15px 10px;
+    font-weight: 600;
+}
+
+.informacoesPessoais a{
+    background-color: #2160a9;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.pontosParaRecompensa{
+    background-color: #2160a9;
+    color: #fff;
+    margin: 10px 0px 10px 30px;
+    padding: 10px;
+    border-radius: 20px;
+    height: 250px;
+    box-shadow: 2px 2px 5px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pontosParaRecompensa p{
+    margin: 10px 20px;
+    font-weight: 500;
+}
+
+.pontosParaRecompensa a{
+    margin-top: 30px;
+    background-color: #fff;
+    color: #2160a9;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a.acessarPontuacoes{
+    color: #2160a9;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+a.acessarPontuacoes:hover{
+    background-color: #2160a9;
+    color: #fff;
+}
+
+.center main#main-perfil button{
+    margin-top: 30px;
+    background-color: #fff;
+    color: #2160a9;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.3em;
+    font-weight: 600;
+    cursor: pointer;
+}
+.center main#main-perfil button:hover{
+    background-color: #2160a9;
+    color: #fff;
+}
+/* Fim pagina perfil */
+
+
+
+
+/* BREAKPOINT Mobile */
+@media(max-width:600px) {
+    nav, nav ul{
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    header nav ul li a{
+        width: 100vw;
+        
+    }
+    nav ul li{
+        margin: 10px;
+    }
+    main#main-index{
+        display: block;
+        width: 90vw;
+        height: 800px;
+        font-size: 0.8em;
+    }
+
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+    .coracao-crianca{
+        width: 300px;
+        height: 200px;
+    }
+    
+    .contato{
+        width: 90vw;
+        height: 200px;
+        flex-direction: column;
+    }
+
+    .carrossel{
+        width: 85vw;
+    }
+    .carrossel #imgCarrossel{
+        width: 85vw;
+    }
+    .convite{
+        margin-top: 50px;
+    }
+    .convite .diferenca-footer{
+        font-size: 1em;
+    }
+    .convite p{
+        display: none;
+    }
+}
